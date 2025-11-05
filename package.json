@@ -1,0 +1,28 @@
+{
+  "name": "node_beg",
+  "version": "1.0.0",
+  "description": "",
+  "homepage": "https://github.com/PrasiddhaKhadka/Node-js#readme",
+  "bugs": {
+    "url": "https://github.com/PrasiddhaKhadka/Node-js/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/PrasiddhaKhadka/Node-js.git"
+  },
+  "license": "ISC",
+  "author": "",
+  "type": "commonjs",
+  "main": "intro.js",
+  "scripts": {
+    "start": "node app.js",
+    "dev": "nodemon app.js"
+  },
+  "dependencies": {
+    "bootstrap": "^5.3.8",
+    "lodash": "^4.17.21"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.10"
+  }
+}

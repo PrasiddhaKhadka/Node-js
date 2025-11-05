@@ -1,0 +1,18 @@
+// Check the version of npm installed
+npm --version
+
+// local Dependency - use it only in particular project 
+npm i <packagename>
+
+// global Dependency - use it on any project 
+npm install -g <packagename>
+sudo install -g <packagename> (mac)
+
+// package.json -> Manifest files (stores important info about project and packages)
+manual way
+npm init
+npm i -y (everything yes by default)
+ 
+
+// Dev Dependency
+npm i nodemon -D
